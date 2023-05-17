@@ -74,8 +74,10 @@ public class VistaCompositor {
         String nomArtis = teclado.next();
         listita.add(nomArtis);
         System.out.println("Ingrese los nuevos Datos (nombre, apellido)");
+        System.out.println("Nombre nuevo: ");
         String nombre = teclado.next();
         listita.add(nombre);
+        System.out.println("Apellido nuevo:");
         String apellido = teclado.next();
         listita.add(apellido);
         return listita;

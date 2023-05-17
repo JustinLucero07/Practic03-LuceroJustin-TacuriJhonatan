@@ -60,14 +60,16 @@ public class VistaCantante {
         listita.add(nomArtis);
         System.out.println("Ingrese los nuevos Datos (nombre, apellido)");
         String nombre = teclado.next();
+        System.out.println("Nombre nuevo:");
         listita.add(nombre);
+        System.out.println("Apellido nuevo:");
         String apellido = teclado.next();
         listita.add(apellido);
         return listita ;
     }
 
     public String eliminarCantante() {
-        System.out.println("Ingresa el nombre del cliente a eliminar");
+        System.out.println("Ingresa el nombre del cantante a eliminar");
         String nom = teclado.next();
         return nom;
     }
